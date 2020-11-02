@@ -31,7 +31,7 @@ real equation is not known for it.
 
 For more information, please refer to the following:
 
-- Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Structure-preserving neural networks](https://arxiv.org/abs/2004.04653)." Journal of Computational Physics (2020).
+- Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Structure-preserving neural networks](https://www.sciencedirect.com/science/article/pii/S0021999120307245)." Journal of Computational Physics (2020).
 
 ## Setting it up
 
