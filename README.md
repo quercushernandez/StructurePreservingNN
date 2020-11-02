@@ -65,7 +65,7 @@ The `data/` folder includes the database and the pretrained parameters of the ne
 
 |             Double Pendulum                  |         Viscolastic Fluid             |
 | ---------------------------------------------|---------------------------------------|
-| [Double Pendulum](/data/double_pendulum.png) |    ![Viscolastic](/data/visco.png)    |
+| (/data/double_pendulum.png) |    (/data/visco.png)    |
 
 ### Train a custom net
 
