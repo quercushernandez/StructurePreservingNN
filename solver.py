@@ -1,8 +1,5 @@
 """solver.py"""
 
-import warnings
-warnings.filterwarnings("ignore")
-
 import os
 import time
 
@@ -15,7 +12,6 @@ from model import StructurePreservingNet
 from dataset import load_dataset, split_dataset
 from utilities.plot import plot_results
 from utilities.utils import print_mse_data, print_mse_degeneracy
-import keyboard
 
 
 class Solver(object):
