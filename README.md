@@ -61,7 +61,7 @@ python main.py --sys_name double_pendulum --train False --hidden_vec 200 200 200
 python main.py --sys_name viscolastic --train False --hidden_vec 50 50 50 50 50 --dset_norm False
 ```
 
-The `data/` folder includes the database and the pretrained parameters of the networks. The resulting time evolution of the state variables and the squared error are plotted and saved in .png format in a generated `outputs/` folder.
+The `data/` folder includes the database and the pretrained parameters of the networks. The resulting time evolution of the state variables is plotted and saved in .png format in a generated `outputs/` folder.
 
 |             Double Pendulum                  |         Viscolastic Fluid             |
 | ---------------------------------------------|---------------------------------------|
@@ -81,7 +81,7 @@ General Arguments:
 |     Argument              |             Description                           | Options                                               |
 |---------------------------| ------------------------------------------------- |------------------------------------------------------ |
 | `--sys_name`              | Study case                                        | `double_pendulum`, `viscolastic`                      |
-| `--train_net`             | Train mode                                        | `True`, `False`                                       |
+| `--train`                 | Train mode                                        | `True`, `False`                                       |
 | `--dset_dir`              | Dataset and pretrained nets directory             | Default: `data`                                       |
 | `--output_dir`            | Output data directory                             | Default: `output`                                     |
 | `--save_plots`            | Save plots of state variables                     | `True`, `False`                                       |
