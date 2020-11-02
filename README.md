@@ -31,7 +31,7 @@ real equation is not known for it.
 
 For more information, please refer to the following:
 
-- Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Structure-preserving neural networks](https://arxiv.org/abs/2004.04653)." arXiv preprint arXiv:2004.04653 (2020), Journal of Computational Physics.
+- Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Structure-preserving neural networks](https://arxiv.org/abs/2004.04653)." Journal of Computational Physics (2020).
 
 ## Setting it up
 
@@ -65,7 +65,7 @@ The `data/` folder includes the database and the pretrained parameters of the ne
 
 |             Double Pendulum                  |         Viscolastic Fluid             |
 | ---------------------------------------------|---------------------------------------|
-| ![Double Pendulum](data/double_pendulum.pdf) |      ![Viscolastic](data/visco.pdf)   |
+| ![Double Pendulum](https://github.com/quercushernandez/StructurePreservingNN/tree/master/data/double_pendulum.pdf) |      ![Viscolastic](https://github.com/quercushernandez/StructurePreservingNN/tree/master/data/visco.pdf)   |
 
 ### Train a custom net
 
