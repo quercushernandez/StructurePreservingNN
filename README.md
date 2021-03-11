@@ -54,18 +54,18 @@ pip install numpy scipy matplotlib pytorch
 
 ### Test pretrained nets
 
-The results of the paper (Double Pendulum and Viscolastic Fluid) can be reproduced with the following scripts, found in the `executables/` folder.
+The results of the paper (Double Pendulum and Viscoelastic Fluid) can be reproduced with the following scripts, found in the `executables/` folder.
 
 ```bash
 python main.py --sys_name double_pendulum --train False --hidden_vec 200 200 200 200 200
-python main.py --sys_name viscolastic --train False --hidden_vec 50 50 50 50 50 --dset_norm False
+python main.py --sys_name viscoelastic --train False --hidden_vec 50 50 50 50 50 --dset_norm False
 ```
 
 The `data/` folder includes the database and the pretrained parameters of the networks. The resulting time evolution of the state variables is plotted and saved in .png format in a generated `outputs/` folder.
 
-|             Double Pendulum                  |         Viscolastic Fluid             |
+|             Double Pendulum                  |         Viscoelastic Fluid             |
 | ---------------------------------------------|---------------------------------------|
-|<div align="center"> <img src="/data/double_pendulum.png" width="500"></div>|<div align="center"> <img src="/data/viscolastic.png" width="500"></div>|
+|<div align="center"> <img src="/data/double_pendulum.png" width="500"></div>|<div align="center"> <img src="/data/viscoelastic.png" width="500"></div>|
 
 ### Train a custom net
 
@@ -80,7 +80,7 @@ General Arguments:
 
 |     Argument              |             Description                           | Options                                               |
 |---------------------------| ------------------------------------------------- |------------------------------------------------------ |
-| `--sys_name`              | Study case                                        | `double_pendulum`, `viscolastic`                      |
+| `--sys_name`              | Study case                                        | `double_pendulum`, `viscoelastic`                      |
 | `--train`                 | Train mode                                        | `True`, `False`                                       |
 | `--dset_dir`              | Dataset and pretrained nets directory             | Default: `data`                                       |
 | `--output_dir`            | Output data directory                             | Default: `output`                                     |
