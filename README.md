@@ -107,12 +107,13 @@ Training Arguments:
 If you found this code useful please cite our work as:
 
 ```
-@article{hern2020structurepreserving,
-    title={Structure-preserving neural networks},
-    author={Quercus Hernandez and Alberto Badias and David Gonzalez and Francisco Chinesta and Elias Cueto},
-    year={2020},
-    eprint={2004.04653},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@article{hernandez2021structure,
+  title={Structure-preserving neural networks},
+  author={Hernandez, Quercus and Badias, Alberto and Gonz{\'a}lez, David and Chinesta, Francisco and Cueto, El{\'\i}as},
+  journal={Journal of Computational Physics},
+  volume={426},
+  pages={109950},
+  year={2021},
+  publisher={Elsevier}
 }
 ```
