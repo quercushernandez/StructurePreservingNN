@@ -25,7 +25,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Structure Preserving Neural Networks')
 
     # Study Case
-    parser.add_argument('--sys_name', default='double_pendulum', type=str, help='physic system name')
+    parser.add_argument('--sys_name', default='double_pendulum', type=str, help='physical system name')
     parser.add_argument('--train', default=False, type=str2bool, help='train or test')
 
     # Dataset Parameters

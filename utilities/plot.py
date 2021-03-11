@@ -66,7 +66,7 @@ def plot_results(output_dir, file_name, z_real, z_net, t_vec, sys_name):
 
         save_dir = os.path.join(output_dir, '[Double Pendulum] ' + file_name)
 
-    elif sys_name == 'viscolastic':
+    elif sys_name == 'viscoelastic':
 
         fig, axes = plt.subplots(2,2, figsize=(15, 10))
         ax1, ax2, ax3, ax4 = axes.flatten()
@@ -100,7 +100,7 @@ def plot_results(output_dir, file_name, z_real, z_net, t_vec, sys_name):
         ax4.set_xlabel('$t$ [-]')
         ax4.grid()
 
-        save_dir = os.path.join(output_dir, '[Viscolastic] ' + file_name)
+        save_dir = os.path.join(output_dir, '[Viscoelastic] ' + file_name)
 
     plt.savefig(save_dir)
     plt.clf()
