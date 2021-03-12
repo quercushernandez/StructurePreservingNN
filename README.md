@@ -5,7 +5,7 @@
 
 [![Project page](https://img.shields.io/badge/-Project%20page-blue)](https://amb.unizar.es/people/quercus-hernandez/)
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2004.04653.pdf)
-[![JCP](https://img.shields.io/badge/JCP-2020-green)](https://www.sciencedirect.com/science/article/pii/S0021999120307245)
+[![JCP](https://img.shields.io/badge/JCP-2021-green)](https://www.sciencedirect.com/science/article/pii/S0021999120307245)
 
 </div>
 
@@ -31,7 +31,7 @@ real equation is not known for it.
 
 For more information, please refer to the following:
 
-- Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Structure-preserving neural networks](https://www.sciencedirect.com/science/article/pii/S0021999120307245)." Journal of Computational Physics (2020).
+- Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Structure-preserving neural networks](https://www.sciencedirect.com/science/article/pii/S0021999120307245)." Journal of Computational Physics (2021).
 
 ## Setting it up
 
