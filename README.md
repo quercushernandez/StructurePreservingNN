@@ -92,14 +92,14 @@ Training Arguments:
 |---------------------------| ------------------------------------------------- |------------------------------------------------------ |
 | `--train_percent`         | Train porcentage of the full database             | Default: `0.8`                                        |
 | `--dset_norm`             | Dataset normalization                             | `True`, `False`                                       |
-| `--hidden_vec`            | Hidden layers vector                              | Default: `50 50 50 50 50`                             |
+| `--hidden_vec`            | Hidden layers vector                              | Default: `50, 50, 50, 50, 50`                         |
 | `--activation`            | Activation functions of the hidden layers         | `linear`, `sigmoid`, `relu`, `tanh`                   |
 | `--net_init`              | Net initialization method                         | `kaiming_normal`, `xavier_normal`                     |
 | `--lr`                    | Learning rate                                     | Default: `1e-4`                                       |
 | `--lambda_r`              | Weight decay regularizer                          | Default: `1e-5`                                       |
 | `--lambda_d`              | Data loss weight                                  | Default: `1e2`                                        |
 | `--max_epoch`             | Maximum number of training epochs                 | Default: `6e3`                                        |
-| `--miles`                 | Learning rate scheduler milestones                | Default: `2e3 4e3`                                    |
+| `--miles`                 | Learning rate scheduler milestones                | Default: `2e3, 4e3`                                   |
 | `--gamma`                 | Learning rate scheduler decay                     | Default: `1e-1`                                       |
 
 ## Citation
@@ -107,13 +107,12 @@ Training Arguments:
 If you found this code useful please cite our work as:
 
 ```
-@article{hernandez2021structure,
+@article{hernandez2020structure,
   title={Structure-preserving neural networks},
-  author={Hernandez, Quercus and Badias, Alberto and Gonz{\'a}lez, David and Chinesta, Francisco and Cueto, El{\'\i}as},
+  author={Hern{\'a}ndez, Quercus and Bad{\'\i}as, Alberto and Gonz{\'a}lez, David and Chinesta, Francisco and Cueto, El{\'\i}as},
   journal={Journal of Computational Physics},
-  volume={426},
   pages={109950},
-  year={2021},
+  year={2020},
   publisher={Elsevier}
 }
 ```
